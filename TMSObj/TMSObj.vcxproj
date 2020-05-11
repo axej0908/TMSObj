@@ -183,7 +183,23 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CDialogCoil.h" />
+    <ClInclude Include="CDialogNewBrain.h" />
     <ClInclude Include="CDialogNewProject.h" />
+    <ClInclude Include="CDialogNewSkin.h" />
+    <ClInclude Include="CDialogOnlineSession.h" />
+    <ClInclude Include="CDialogPerform.h" />
+    <ClInclude Include="CDialogPolaris.h" />
+    <ClInclude Include="CDialogRegistration.h" />
+    <ClInclude Include="CDialogSetPoint.h" />
+    <ClInclude Include="CDialogShowDetail.h" />
+    <ClInclude Include="CDialogTargets.h" />
+    <ClInclude Include="CDialogValidation.h" />
+    <ClInclude Include="CTabDialog3DRebuild.h" />
+    <ClInclude Include="CTabDialogRunTMS.h" />
+    <ClInclude Include="CTabDialogSelectImg.h" />
+    <ClInclude Include="CTabDialogSetPoint.h" />
+    <ClInclude Include="CTabDialogSetSpot.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
@@ -192,7 +208,23 @@
     <ClInclude Include="TMSObjDlg.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CDialogCoil.cpp" />
+    <ClCompile Include="CDialogNewBrain.cpp" />
     <ClCompile Include="CDialogNewProject.cpp" />
+    <ClCompile Include="CDialogNewSkin.cpp" />
+    <ClCompile Include="CDialogOnlineSession.cpp" />
+    <ClCompile Include="CDialogPerform.cpp" />
+    <ClCompile Include="CDialogPolaris.cpp" />
+    <ClCompile Include="CDialogRegistration.cpp" />
+    <ClCompile Include="CDialogSetPoint.cpp" />
+    <ClCompile Include="CDialogShowDetail.cpp" />
+    <ClCompile Include="CDialogTargets.cpp" />
+    <ClCompile Include="CDialogValidation.cpp" />
+    <ClCompile Include="CTabDialog3DRebuild.cpp" />
+    <ClCompile Include="CTabDialogRunTMS.cpp" />
+    <ClCompile Include="CTabDialogSelectImg.cpp" />
+    <ClCompile Include="CTabDialogSetPoint.cpp" />
+    <ClCompile Include="CTabDialogSetSpot.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -209,9 +241,10 @@
     <None Include="res\TMSObj.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="C:\Users\Administrator\Desktop\Desktop\put.ico" />
     <Image Include="res\baidu.png" />
-    <Image Include="res\bitmap1.bmp" />
     <Image Include="res\BMP White.ico" />
+    <Image Include="res\icon1.ico" />
     <Image Include="res\TMSObj.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

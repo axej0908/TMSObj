@@ -38,4 +38,7 @@ public:
 	CStatic m_static_title;
 	afx_msg void OnBnClickedButton2();
 	afx_msg void OnBnClickedButtonNewProject();
+
+
+	
 };

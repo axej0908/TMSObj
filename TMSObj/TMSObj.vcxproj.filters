@@ -36,6 +36,54 @@
     <ClInclude Include="CDialogNewProject.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CTabDialogSetSpot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTabDialog3DRebuild.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTabDialogRunTMS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTabDialogSelectImg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTabDialogSetPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogShowDetail.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogNewSkin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogNewBrain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogSetPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogOnlineSession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogTargets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogPolaris.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogRegistration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogValidation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogPerform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogCoil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TMSObj.cpp">
@@ -48,6 +96,54 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CDialogNewProject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabDialogSetSpot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabDialog3DRebuild.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabDialogRunTMS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabDialogSelectImg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabDialogSetPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogShowDetail.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogNewSkin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogNewBrain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogSetPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogOnlineSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogTargets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogPolaris.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogRegistration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogValidation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogPerform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogCoil.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -65,13 +161,16 @@
     <Image Include="res\TMSObj.ico">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="res\bitmap1.bmp">
-      <Filter>资源文件</Filter>
-    </Image>
     <Image Include="res\baidu.png">
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="res\BMP White.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\Administrator\Desktop\Desktop\put.ico">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

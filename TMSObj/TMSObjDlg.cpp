@@ -9,6 +9,7 @@
 #include "afxdialogex.h"
 #include "CDialogNewProject.h"
 
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -55,6 +56,21 @@ BOOL CTMSObjDlg::OnInitDialog()
 
 	font_titleFont.CreatePointFont(160,L"微软雅黑");
 	m_static_title.SetFont(&font_titleFont);
+
+	CStatic* pWnd = (CStatic*)GetDlgItem(IDC_STATIC_ICO); // 得到 Picture Control 句柄
+	CImage image;
+	image.Load(_T("C:\\logo.png"));
+	HBITMAP hBmp = image.Detach();
+	pWnd->SetBitmap(hBmp);
+	pWnd->SetWindowPos(NULL,
+		0,
+		0,
+		77,
+		77,
+		SWP_NOACTIVATE | SWP_NOMOVE | SWP_NOZORDER);
+
+
+
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
 
@@ -104,3 +120,4 @@ void CTMSObjDlg::OnBnClickedButtonNewProject()
 	CDialogNewProject newProjectDiglog;
 	newProjectDiglog.DoModal();
 }
+
