@@ -69,7 +69,7 @@ BOOL CTMSObjDlg::OnInitDialog()
 		77,
 		SWP_NOACTIVATE | SWP_NOMOVE | SWP_NOZORDER);
 
-
+	//版本更新
 
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
