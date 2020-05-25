@@ -1,4 +1,6 @@
-﻿#include "CDialogShowDetail.h"
+﻿
+
+#include "CDialogShowDetail.h"
 #pragma once
 
 
@@ -34,4 +36,13 @@ public:
 	afx_msg void OnBnClickedBtnopenfile();
 	afx_msg void OnBnClickedshowdetails();
 	CDialogShowDetail c_dialog_details;
+	int showPointsInVtkSingle(char* filePath,int IDCX);
+	CStatic m_static_name;
+	CStatic m_static_sex;
+	CStatic m_static_scandate;
+	CStatic m_static_scantype;
+	CStatic m_static_imgsize;
+
+	CString openFilePath;
+
 };

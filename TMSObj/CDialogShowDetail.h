@@ -1,4 +1,5 @@
-﻿#pragma once
+﻿
+#pragma once
 
 
 // CDialogShowDetail 对话框
@@ -26,4 +27,8 @@ public:
 	CFont m_layout_font;
 	CComboBox m_combox_layout;
 	CListCtrl m_image_data;
+	int showPointsInVtk(char* filePath, int IDCX);
+
+	CString readFilePath;
+	CStatic m_img_show1;
 };

@@ -78,6 +78,12 @@
 #define IDC_view_pic                    1068
 #define IDC_LIST2                       1069
 #define IDC_circle_pic                  1070
+#define IDC_STATIC_name                 1071
+#define IDC_STATIC_sex                  1072
+#define IDC_STATIC_scandate             1073
+#define IDC_STATIC_scantype             1074
+#define IDC_STATIC_imgsize              1075
+#define IDC_STATIC_show1                1076
 
 // Next default values for new objects
 // 
@@ -85,7 +91,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        174
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1071
+#define _APS_NEXT_CONTROL_VALUE         1077
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
