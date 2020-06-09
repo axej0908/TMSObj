@@ -1,15 +1,16 @@
 ﻿// CTabDialogSelectImg.cpp: 实现文件
 //
 
+#include <vtkAutoInit.h>
+VTK_MODULE_INIT(vtkRenderingOpenGL2);
+VTK_MODULE_INIT(vtkInteractionStyle);
+
 #include "pch.h"
 #include "TMSObj.h"
 #include "CTabDialogSelectImg.h"
 #include "afxdialogex.h"
 
 
-#include <vtkAutoInit.h>
-VTK_MODULE_INIT(vtkRenderingOpenGL2);
-VTK_MODULE_INIT(vtkInteractionStyle);
 #include <vtkActor.h>
 #include <vtkProperty.h>
 #include <vtkSmartPointer.h>

@@ -22,4 +22,7 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	virtual BOOL OnInitDialog();
+
+	int showPointsInVtk(char* filePath, int IDCX);
+	CStatic m_show3D;
 };
