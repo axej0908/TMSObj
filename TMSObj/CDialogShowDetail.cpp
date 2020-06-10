@@ -290,7 +290,7 @@ int CDialogShowDetail::showPointsInVtk(char* filePath, int IDCX)
         planeWidget[i]->RestrictPlaneToVolumeOn();
         double color[3] = { 0, 0, 0 };
         color[i] = 1;
-        planeWidget[i]->GetPlaneProperty()->SetColor(color);
+        //planeWidget[i]->GetPlaneProperty()->SetColor(color);
         planeWidget[i]->SetTexturePlaneProperty(ipwProp);
         planeWidget[i]->TextureInterpolateOff();
         planeWidget[i]->SetResliceInterpolateToLinear();
@@ -332,7 +332,7 @@ int CDialogShowDetail::showPointsInVtk(char* filePath, int IDCX)
         const double minVal = reader->GetOutput()->GetScalarRange()[0];
         if (vtkImageReslice* reslice = vtkImageReslice::SafeDownCast(resliceCursorRep[i]->GetReslice()))
         {
-            reslice->SetBackgroundColor(minVal, minVal, minVal, minVal);
+            //reslice->SetBackgroundColor(minVal, minVal, minVal, minVal);
         }
 
         resliceCursorWidget[i]->SetDefaultRenderer(ren[i]);
@@ -356,11 +356,11 @@ int CDialogShowDetail::showPointsInVtk(char* filePath, int IDCX)
         planeWidget[i]->GetColorMap()->SetLookupTable(resliceCursorRep[0]->GetLookupTable());
     }
 
-    ren[0]->SetBackground(0.3, 0.1, 0.1);
-    ren[1]->SetBackground(0.1, 0.3, 0.1);
-    ren[2]->SetBackground(0.1, 0.1, 0.3);
+    //ren[0]->SetBackground(0.3, 0.1, 0.1);
+    //ren[1]->SetBackground(0.1, 0.3, 0.1);
+    //ren[2]->SetBackground(0.1, 0.1, 0.3);
     ren[3]->AddActor(outlineActor);
-    ren[3]->SetBackground(0.1, 0.1, 0.1);
+   // ren[3]->SetBackground(0.1, 0.1, 0.1);
     renWin->SetSize(1300, 420);
     renWin->SetPosition(22, 50);
 
